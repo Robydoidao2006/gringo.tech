@@ -1,0 +1,277 @@
+/* ******************************** */
+/*        Shooting psx stars        */
+/* ******************************** */
+
+@keyframes particleAnimation
+{
+    from {
+        right: -100px;
+        top: -100px;
+    }
+    to {
+        left: calc( 100% + 100px );
+    }
+}
+
+/* animation for x */
+.x{
+  position:fixed;
+  /* size of star */
+  width:30px;
+  height:30px;
+  background-image: url( "../images/ps-stars/x.png" );
+  /* animation of star */
+  animation-name:particleAnimation;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.star-x-1{
+  /* speed */
+  animation-duration:15s;
+  /* direction */
+  left: 40%;
+  top: 100%;
+}
+
+/* animation for triangle */
+.t{
+  position:fixed;
+  width:30px;
+  height:30px;
+  background-image: url( "../images/ps-stars/triangle.png" );
+  animation-name:particleAnimation;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.star-t-1{
+  animation-duration:25s;
+  left: 20%;
+  top: 350%;
+}
+
+/* animation for circle */
+.c{
+  position:fixed;
+  width:30px;
+  height:30px;
+  background-image: url( "../images/ps-stars/circle.png" );
+  animation-name:particleAnimation;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.star-c-1{
+  animation-duration:12s;
+  left: 70%;
+  top: 150%;
+}
+
+
+/* animation for square */
+.s{
+  position:fixed;
+  width:30px;
+  height:30px;
+  background-image: url( "../images/ps-stars/square.png" );
+  animation-name:particleAnimation;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.star-s-1{
+  animation-duration:10s;
+  left: 10%;
+  top: 100%;
+}
+
+
+/* ************************************* */
+/*                  body                 */
+/* ************************************* */
+
+body {
+    background-image: url("../images/ps4/background/wave2.jpg") !important; 
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important; 
+    width: 100%;
+    height: 100%;
+} 
+
+/* size of the main container */
+.psx-box{
+    width: 100%;
+}
+
+h3 {
+    color: white;
+    font-family: 'Roboto';
+}
+
+/* ************************************* */
+/*            left container             */
+/* ************************************* */
+
+.psx-left-content{
+    border: 5px solid #222;
+    width: 100%;
+    margin: 20px 0 0 0!important;
+    padding: 10px;
+}
+/* images relative to the widh/height */
+.psx-left-content img{
+    max-width:100%;
+    max-height:100%;
+}
+
+
+/* ************************************* */
+/*           middle container            */
+/* ************************************* */
+
+
+/* middle container img shadow */
+.row .psx-content img {
+    width: 100%;
+    margin:0px 10px 10px 0px !important;
+    padding:0  20px 20px 20px;
+}
+
+/* tittle of middle container */
+.psx-title {
+margin-top: 0px;
+}
+.psx-title a {
+    color:white;
+}
+p{
+    padding: 0 25px;
+}
+
+/*  psx content itself*/
+.psx-content{
+    border: 5px solid #222;
+    background-color: rgba(22, 22, 22, 0.5);
+    width: 100%;
+    margin: 20px 0 0 0!important;
+    padding: 10px;
+}
+
+#editor a{
+    color:red;
+    -webkit-animation: 600;
+}
+
+/* ************************************* */
+/*            right container            */
+/* ************************************* */
+
+
+.psx-right-content{
+    border: 5px solid #222;
+    width: 100%;
+    margin: 20px 0 0 0!important;
+    padding: 10px;
+}
+/* images relative to the widh/height */
+.psx-right-content img{
+    max-width:100%;
+    max-height:100%;
+}
+
+
+/* ************************************* */
+/*       buttons comments section        */
+/* ************************************* */
+
+
+.newComment, .oldComment{
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: #1ab188;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+    margin: 20px;
+
+}
+
+
+  .commentH:hover, .commentH:focus {
+    background: #179b77;
+  }
+  
+  .button-block {
+
+    width: 200px;
+  }
+
+
+/* ************************************* */
+/*            comments section           */
+/* ************************************* */
+
+.psx-comments{
+    border: 5px solid #222;
+    background-color: rgba(22, 22, 22, 0.5);
+    width: 100%;
+    margin: 20px 0 0 0!important;
+    padding: 10px;
+}
+
+.user-profile-image{
+    width: 100px!important;
+    float: left;
+    padding:0 10px 10px 0; 
+}
+
+.userComment{
+ margin-top: 10px;
+}
+
+
+
+/* ************************************* */
+/*            Media Queries              */
+/* ************************************* */
+
+/* fixes main content image size along with txt */
+
+@media only screen and (max-width: 980px) {
+    .psx-content img{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+        float: none;
+    } 
+}
+
+@media only screen and (max-width: 767px) {
+    .psx-content img{
+        float:left;
+        margin-bottom: 20px;
+        width: 250px;
+        height: 100%;
+    }    
+} 
+
+@media only screen and (max-width: 500px) {
+    .psx-content img{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+        float: none;
+    }
+}
+
+
+

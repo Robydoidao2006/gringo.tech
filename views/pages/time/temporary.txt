@@ -1,0 +1,22 @@
+<div class="container text-center">
+<h3>Quem Somos?</h3>
+  <div class="row">
+
+    <div class="col-md-3">
+    </div><!-- col-md-3 ends -->
+
+      <div class="col-md-6">
+        <p>
+        Gringo.Tech é uma extensão que surgiu a partir da criação do canal do Youtube 
+        <a class="gringo-production" href="https://www.youtube.com/user/robydoidao2010" target="_blank">Gringo Productions.</a>
+         Nossa familia expandiu a proporções colosais e desde então 
+         decidimos criar o nosso propio site para assim expandir & alcançar novos 
+         membros que gostam de conteudo no formato de blog ou site de informações
+         </p>
+      </div><!-- col-md-6 ends -->
+
+      <div class="col-md-3">
+    </div><!-- col-md-3 ends -->
+
+  </div> <!-- row ends -->
+</div> <!-- container ends -->
