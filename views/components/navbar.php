@@ -35,7 +35,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->    
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-            <li class="thumbnail"><img src="../../../../assets/images/logo/novo.png" id="buttonlogo"><a href="../../../../views/pages/novo/novo.php">NOVO</a></li>
+            <!--<li class="thumbnail"><img src="../../../../assets/images/logo/novo.png" id="buttonlogo"><a href="../../../../views/pages/novo/novo.php">NOVO</a></li>-->
             <li class="thumbnail"><img src="../../../../assets/images/logo/ps3.png" id="buttonlogo"><a href="../../../../views/pages/ps3/ps3.php">PS3</a></li>
             <li class="thumbnail"><img src="../../../../assets/images/logo/ps4.png" id="buttonlogo"><a href="../../../../views/pages/ps4/ps4.php">PS4</a></li>
             <li class="thumbnail"><img src="../../../../assets/images/logo/psvita.png" id="buttonlogo"><a href="../../../../views/pages/psvita/psvita.php">PS VITA</a></li>
@@ -47,11 +47,12 @@
             <ul class="nav navbar-nav navbar-right">          
                 <li class="thumbnail"><img src="../../../../assets/images/logo/games.png" id="buttonlogo"><a href="../../../../views/pages/games/games.php">GAMES</a></li>
                 <li class="thumbnail"><img src="../../../../assets/images/logo/chat.png" id="buttonlogo"><a href="../../../../views/pages/chat/chat.php">CHAT</a></li>
-                <li class="thumbnail"><img src="../../../../assets/images/logo/forum.png" id="buttonlogo"><a href="../../../../views/pages/forum/forum.php">FORUM</a></li>     
-                <li class="thumbnail"><img class="profilePicture" id="buttonlogo" src="../../../../assets/images/logo/profile.png"/>
-                    <div id="fbUserPhoto"></div>
+                <li class="thumbnail"><img src="../../../../assets/images/logo/forum.png" id="buttonlogo"><a href="../../../../views/pages/forum/forum.php">FORUM</a></li>   
+                <!--ORIGINAL - change placeholder picture to facebook picture - ORIGINAL-->
+                <!--<li class="thumbnail"> <div id="fbUserPhoto" class="buttonlogo"><img class="profilePicture" id="buttonlogo" src="../../../../assets/images/logo/profile.png"/></div>-->
+                <li class="thumbnail text-center"><div id="fbUserPhoto" class="buttonlogo thumbnail"><img class="profilePicture" id="buttonlogo" src="../../../../assets/images/logo/profile.png"/></div>
                         <div class="dropdown">
-                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">PROFILE<span class="caret"></span></button>
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">USER<span class="caret"></span></button>
                         <ul class="dropdown-menu">
                             <li><a href="../../../../views/pages/signinup/signinup.php">User login</a></li>
                             <li><a href="../../../../views/pages/admin/adminsignin.html">Admin login</a></li>
@@ -60,10 +61,10 @@
                             <li><a href="#">Ranking</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a href="#" id="fbUserName">User Profile</a></li>
-                        </ul>
+                        </ul><!-- end Dropdown menu -->
                     </div>
-                </li>
-            </ul>
+                </li><!-- end navbar -->
+            </ul><!-- end navbar -->
         <!-- end of logo-->
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -73,6 +74,9 @@
   <script type="text/javascript" src="../../../../assets/js/bootstrap.js"></script>
   <script type="text/javascript" src="../../../../assets/js/script.js"></script> 
   <script type="text/javascript" src="../../../../assets/js/facebook.js"></script>
+
+
+
 
 
 

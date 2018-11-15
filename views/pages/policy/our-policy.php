@@ -31,18 +31,43 @@
 </div>
 
   <div class="col-md-6">
-    <h3>General Policy</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint nulla quia repudiandae nostrum consectetur dicta, hic sed ut officiis, aperiam nam voluptatum reprehenderit natus iusto corporis repellendus corrupti delectus ea?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aperiam deserunt, architecto commodi veniam, sequi natus voluptates molestiae provident ipsam tenetur in assumenda sit, similique repellat magnam libero cupiditate ducimus?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aperiam deserunt, architecto commodi veniam, sequi natus voluptates molestiae provident ipsam tenetur in assumenda sit, similique repellat magnam libero cupiditate ducimus?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aperiam deserunt, architecto commodi veniam, sequi natus voluptates molestiae provident ipsam tenetur in assumenda sit, similique repellat magnam libero cupiditate ducimus?</p>
-    <h3>Comments Policy</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aperiam deserunt, architecto commodi veniam, sequi natus voluptates molestiae provident ipsam tenetur in assumenda sit, similique repellat magnam libero cupiditate ducimus?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aperiam deserunt, architecto commodi veniam, sequi natus voluptates molestiae provident ipsam tenetur in assumenda sit, similique repellat magnam libero cupiditate ducimus?</p>
-    <h3>User Data policy</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aperiam deserunt, architecto commodi veniam, sequi natus voluptates molestiae provident ipsam tenetur in assumenda sit, similique repellat magnam libero cupiditate ducimus?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aperiam deserunt, architecto commodi veniam, sequi natus voluptates molestiae provident ipsam tenetur in assumenda sit, similique repellat magnam libero cupiditate ducimus?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aperiam deserunt, architecto commodi veniam, sequi natus voluptates molestiae provident ipsam tenetur in assumenda sit, similique repellat magnam libero cupiditate ducimus?</p>
+
+    <h3>Politica Geral</h3> 
+    <p>
+      Bem-vindos a Nossa Politica Geral, 
+    </p>
+
+
+    <h3>Politica de Comentarios</h3>
+    <p> 
+      Nôs implementamos os comentarios no nosso site para dar liberdade de expressão aos nossos usuarios,
+      apesar de termos liberdade de expressão nos acreditamos que todos devem seguir um certo padrão de etiqueta.
+      Temos ZERO TOLERANCIA com:
+      <ul>
+        <li>
+          Racismo, preconceito.
+        </li>
+        <li>
+          Derespeito a membros ou Staff do site.
+        </li>
+        <li>
+          publicações de links de outras paginas web. 
+        </li>
+      </ul>
+      Os ADMs de plantão são os responsaveis por manter a ordem e respeito nos comentarios - Membros que tentarem 
+      burlar ou falirem em cumprir nossas normas de etiqueta serão banidos por IP. Uma vez banido, Não a volta!
+
+    </p>
+
+    <h3>Politica de Dados de Usúario</h3>
+      <p>
+        Nôs da Gringo.Tech temos grande respeito e apreciação por nossos membros, por isso nosso
+        site não distribúi os dados privados dos nossos usúarios para empressas terceirizadas.
+        A confiaça que nossos membros tem com nossa comunidade é extremadamente importante para nôs.
+        Tentdo isso em vista, lembre-se si voçê receber uma mensagem do nosso "site", mande uma mensagem 
+        para qualquer ADM ou use o <strong><a href="../../../../../views/pages/contact/contact.php" id="queixa">Contate-nos</a></strong> para abrir um queixa!!
+      </p>
+
   </div>
   
   <!-- right container -->

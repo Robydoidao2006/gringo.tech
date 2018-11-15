@@ -22,7 +22,9 @@
 <!--   Playstation 4 Content   -->
 <!-- ========================= -->
 
-<h1 class="text-center">PlayStation 4</h1>
+
+<!-- <h1 class="text-center">PlayStation 4</h1> -->
+
 
 <!-- Page content -->
 <div class="container-fluid psx-box">
@@ -39,6 +41,15 @@
 
     <!-- Main content -->
     <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+    
+
+
+    <!-- Search Engine -->
+
+    <div class="row psx-content">
+        <h2 class="text-center" id="contentTitle">PlayStation 4</h2>
+    </div>
+
           <!-- Content itself -->
           <div class="row psx-content">
               <img src="../../../assets/images/ps4/content/1.jpg">

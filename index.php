@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Gringo.Tech</title>
+	<title>Gringo.Tech - Home</title>
     <!-- style  = Bootstrap - CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../../../assets/css/carousel.css">
@@ -90,7 +90,6 @@
                  <h1>Bem-Vindos</h1> 
                  <h3>Novo Conteúdo todos os dias</h3>
             </hgroup>
-            <button class="btn btn-hero btn-lg" role="button">Confira</button>
         </div>
     </div>
 </div>

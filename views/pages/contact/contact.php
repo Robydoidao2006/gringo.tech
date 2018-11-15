@@ -21,7 +21,7 @@
   <div id="contact" class="text-center">
     <div class="container contact-form">
       <div class="section-title center">
-        <h1>Entre em contato com a gente!</h1>
+        <h1>Alguma Sugestão ou pergunta?</h1>
       </div>
       <div>
         <form name="sentMessage" id="contactForm" novalidate>

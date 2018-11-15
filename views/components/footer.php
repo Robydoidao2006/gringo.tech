@@ -9,7 +9,7 @@
 							<a href="../../../../views/pages/contact/contact.php" class="footerLink">Contate-nos</a>
 						</li>
 						<li>
-							<a href="../../../../views/pages/policy/our-policy.php" class="footerLink">Our Policy</a>
+							<a href="../../../../views/pages/policy/our-policy.php" class="footerLink">Nossa Politica</a>
 						</li>
 					</ul>
 				</div>
@@ -28,10 +28,16 @@
 					<h4 class="footerh4">Redes Sociais</h4>
 					<ul class="list-unstyled quick-links">
 						<li>
-							<a href="#" class="footerLink">test</a>
+							<a href="https://www.facebook.com/groups/958412667549309/" class="footerLink" target="_blank">Facebook</a>
 						</li>
 						<li>
-							<a href="#" class="footerLink">test</a>
+							<a href="https://discord.gg/88GeX5" class="footerLink" target="_blank">Discord</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/user/robydoidao2010" class="footerLink" target="_blank">Youtube</a>
+						</li>
+						<li>
+							<a href="https://www.twitch.tv/gringo_productions" class="footerLink" target="_blank">Twitch</a>
 						</li>
 					</ul>
 				</div>
