@@ -26,7 +26,7 @@ This project was build using the following technologies.
 #### Minor visual improvements.
 - Seconds was removed from the date as its irrelevant to the project.
 
-![alt text](assets/images/github/logout.jpg)![alt text](assets/images/github/login.jpg)
+![alt text](assets/images/github/login.jpg)
 
 #### Major technical improvements.
 - User input is now being store on the localStorage.
