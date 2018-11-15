@@ -1,5 +1,5 @@
 # Gringo.Tech
-Its a personal website I created to display content regarding the playstion ecosystem.
+Personal website I created to display news regarding the playstion ecosystem.
 This project was build using the following technologies.
 - HTML5
 - CSS3
@@ -12,18 +12,21 @@ This project was build using the following technologies.
 
 #### Check The Project :[Click Me](https://gringo.tech)
 
-#### V.4.0 ~ Date: 11/10/2018.
+#### V.4.0 ~ Date: 11/8/2018.
 ![alt text](assets/images/github/v5.jpg)
 
-#### Major technical improvements
-- Fix property value of null on date output - it display the time correctly but error persisted on the dev tools.
-- Newest post now displays on the top of the table
-- Previous and newer user post will be store via localstorage and display.
+#### Minor Visual improvements
+- Facebook profile picture its now being display on the correct location
+- Placeholder picture its now being change for facebook profile picture when user logs in.
+- Fix issues with the navbar not displaying correctly when viewing on a smaller screen.
+
 
 
 #### V.3.0 ~ Date: 11/09/2018.
 #### Minor visual improvements.
 - Seconds was removed from the date as its irrelevant to the project.
+![alt text](assets/images/github/logout.jpg)
+![alt text](assets/images/github/login.jpg)
 
 #### Major technical improvements.
 - User input is now being store on the localStorage.
