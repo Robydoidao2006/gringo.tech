@@ -1,8 +1,19 @@
 # Gringo.Tech
+Its a personal website I created to display content regarding the playstion ecosystem.
+This project was build using the following technologies.
+• HTML5
+• CSS3
+• Javascript
+• PHP
+• Mysql
+• Bootstrap
+• Facebook API 
+• Disqus API
 
-#### Test The Project :[Click Me](https://gringo.tech)
+#### Check The Project :[Click Me](https://gringo.tech)
 
 #### V.4.0 ~ Date: 11/10/2018.
+![alt text](assets/images/v5.jpg)
 
 #### Major technical improvements
 - Fix property value of null on date output - it display the time correctly but error persisted on the dev tools.
@@ -33,7 +44,8 @@
 - Dynamically generates current time on submition.
 
 #### V.1.0 ~ Date: 11/06/2018.
-- Grabs user input, and display company name, job location, posting website and job title.
+
+
 ![alt text](assets/images/v1.jpg)
 
 
