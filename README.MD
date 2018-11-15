@@ -1,14 +1,14 @@
 # Gringo.Tech
 Its a personal website I created to display content regarding the playstion ecosystem.
 This project was build using the following technologies.
-• HTML5
-• CSS3
-• Javascript
-• PHP
-• Mysql
-• Bootstrap
-• Facebook API 
-• Disqus API
+- HTML5
+- CSS3
+- Javascript
+- PHP
+- Mysql
+- Bootstrap
+- Facebook API 
+- Disqus API
 
 #### Check The Project :[Click Me](https://gringo.tech)
 
