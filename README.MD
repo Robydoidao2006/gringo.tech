@@ -13,7 +13,7 @@ This project was build using the following technologies.
 #### Check The Project :[Click Me](https://gringo.tech)
 
 #### V.4.0 ~ Date: 11/10/2018.
-![alt text](assets/images/v5.jpg)
+![alt text](assets/images/github/v5.jpg)
 
 #### Major technical improvements
 - Fix property value of null on date output - it display the time correctly but error persisted on the dev tools.
