@@ -45,7 +45,7 @@
                 document.getElementById('fbLink').setAttribute("onclick", "fbLogout()");
                 document.getElementById('fbLink').innerHTML = 'Facebook Logout';
                 document.getElementById('fbUserName').innerHTML = ''+response.first_name+' '+response.last_name+'';
-                document.getElementById('fbUserPhoto').innerHTML = '<img src="'+response.picture.data.url+'"/>';
+                document.querySelector('#fbUserPhoto').innerHTML = '<img src="'+ response.picture.data.url +'"/>';
 
                 //save data
                 saveUserData(response);
@@ -65,7 +65,6 @@
                 document.getElementById('fbLink').setAttribute("onclick","fbLogin()");
                 document.getElementById('fbLink').innerHTML = "Facebook Login";
                 document.getElementById('fbUserName').innerHTML = 'Meu Profile';
-                document.getElementById('fbUserPhoto').innerHTML = '<img src="../../images/logo/profile.png"/>';
-                // document.getElementById('fbUserPhoto').innerHTML = '';
+                document.getElementById('fbUserPhoto').innerHTML = "<img src=\"../../../../assets/images/logo/profile.png\"width=\"40px\" height=\"30px\">";
             });
         }

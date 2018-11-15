@@ -5,41 +5,47 @@ body {
     font-family: 'Inconsolata', monospace !important;
 }
 
-
 /* recrutamento */
 ul #recrutamento {
     text-decoration: none;
     color:red;
-
 }
+
 li #recrutamento {
     text-decoration: none;
 }
 
 /* fixes the text in the next page buttons */
 .pager li a{
-color:red!important;
-padding-top: 5px!important;
+    color:red!important;
+    padding-top: 5px!important;
 }
 
 /* navbar */
 #buttonlogo{
     width: 40px;
     height: 30px; 
-
 }
-
 
 /* facebook pic NEED TO FIX SIZE */
 #fbUserPhoto{
-    max-width: 30px!important;
-    max-height: 30px!important; 
-    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -5px;
+    width:40px!important;
+    height:30px!important;
+    /*max-width: 30px!important;*/
+    /*max-height: 30px!important; */
+    border-radius: 50%!important;
+}
+
+#dropdownMenu1{
+    margin-top: 5px;
 }
 
 a {
     padding-top: 0px !important; 
 }
+
 .thumbnail{
     background:transparent;
     margin: 10px 5px 0px 0px;
@@ -51,9 +57,6 @@ a {
     margin-top:20px;
     max-height: 40px;
 }
-
-/* COME BACK TO THIS FIX LOGO CENTER AND MEDIA QUERY  */
-
 
  /*******************************/
  /*       dropdown menu         */
@@ -68,6 +71,7 @@ a {
 .dropdown-menu{
     background:#222;
     margin-top: 20px;
+     /*margin-top:25px;*/
 } 
 
 #dropdownMenu1{
@@ -77,6 +81,7 @@ a {
 .caret hover{
     background:transparent;
 }
+
 .dropdown-menu li a {
     color:white;
     font-size: 20px;
@@ -92,22 +97,17 @@ a {
 
 }
 
-
-
-
-  @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-  section {
-      padding: 15px 0;
-  }
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+    section {
+        padding: 15px 0;
+    }
   
-  section .section-title {
-      text-align: center;
-      color: #007b5e;
-      margin-bottom: 50px;
-      text-transform: uppercase;
-  }
-
-/* bio */
+    section .section-title {
+        text-align: center;
+        color: #007b5e;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+    }
 
 .panel{
       margin: 30px;
@@ -161,7 +161,11 @@ h3 a{
     text-decoration: none;
 }
 
-
+#queixa{
+    color:black!important;
+    text-decoration: none;
+    font-weight: 800;
+}
 
   /********************************/
   /*          Media Queries       */
