@@ -4,6 +4,7 @@ This project was build using the following technologies.
 - HTML5
 - CSS3
 - Javascript
+- JQuery
 - PHP
 - Mysql
 - Bootstrap
