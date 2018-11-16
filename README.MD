@@ -1,5 +1,5 @@
 # Gringo.Tech
-Personal website I created to display news regarding the playstion ecosystem.
+ I created this website in order to display news regarding the playstion ecosystem.
 This project was build using the following technologies.
 - HTML5
 - CSS3
@@ -12,7 +12,7 @@ This project was build using the following technologies.
 
 #### Check The Project :[Click Me](https://gringo.tech)
 
-#### V.4.0 ~ Date: 11/8/2018.
+#### V. ~ Date: 11/8/2018.
 ![alt text](assets/images/github/v5.jpg)
 
 #### Minor Visual improvements
@@ -20,9 +20,7 @@ This project was build using the following technologies.
 - Placeholder picture its now being change for facebook profile picture when user logs in.
 - Fix issues with the navbar not displaying correctly when viewing on a smaller screen.
 
-
-
-#### V.3.0 ~ Date: 11/09/2018.
+#### V. ~ Date: 11/09/2018.
 
 #### Minor visual improvements.
 - Seconds was removed from the date as its irrelevant to the project.
@@ -32,7 +30,7 @@ This project was build using the following technologies.
 #### Major technical improvements.
 - User input is now being store on the localStorage.
 
-#### V.2.0 ~ Date: 11/08/2018.
+#### V. ~ Date: 11/08/2018.
 #### Major visual improvements.
 - Fixed divs proportion
 - 100% responsive
