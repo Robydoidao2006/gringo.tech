@@ -15,6 +15,7 @@ This project was build using the following technologies.
 
 #### V.4.0 ~ Date: 11/8/2018.
 ![alt text](assets/images/github/v5.jpg)
+![alt text](assets/images/github/log.jpg)
 
 #### Minor Technical Improvements
 - Fix issue with the placeholder picture not displaying when user logs out.
