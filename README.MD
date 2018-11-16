@@ -39,7 +39,7 @@ This project was build using the following technologies.
 
 #### Major Technical Improvements 
 - Website its now connected to its own database via PHP/MySQL.
-- User login is beeing store in the database - but there is no authentication.
+- User registration is beeing store in the database - but there is no authentication.
 #### Major Visual Improvements.
 - Fixed divs proportion
 - 100% responsive
