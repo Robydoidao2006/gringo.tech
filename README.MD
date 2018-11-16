@@ -56,6 +56,7 @@ This project was build using the following technologies.
 #### V.1.1 ~ Date: 09/11/2018.
 #### Minor Visual Improvements
 - added custom shooting stars to enhance visual. 
+- added carousel to homepage.
 
 #### V.1.0 ~ Date: 09/06/2018.
 - Project layout 
