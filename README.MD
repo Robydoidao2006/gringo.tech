@@ -1,3 +1,9 @@
+
+asd
+asdasd
+
+
+
 # Gringo.Tech - In Development!
  I created this website in order to display news regarding the playstion ecosystem.
 This project was build using the following technologies.
