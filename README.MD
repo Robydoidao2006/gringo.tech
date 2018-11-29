@@ -42,8 +42,7 @@ This project was build using the following technologies.
 - User registration is beeing store in the database - but there is no authentication.
 #### Major Visual Improvements.
 - Fixed divs proportion
-- 100% responsive
-- Added even lines for easy readability
+- 100% responsive design
 
 #### V.2.0 ~ Date: 09/19/2018.
 
