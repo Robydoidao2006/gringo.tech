@@ -18,7 +18,7 @@ This project was build using the following technologies.
 #### V.4.1 ~ Date: 12/3/2018
 
 #### Minor Technical Improvement
-- Added a Search Engine that will take user input and return data based on the title of the article.
+- Added a Search Engine that will take user input and return data live based on the title of the article.
 
 ![alt text](assets/images/github/v4-1.jpg)
 
