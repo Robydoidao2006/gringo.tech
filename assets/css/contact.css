@@ -23,7 +23,7 @@
   .contact-form {
     background: rgba(22 , 22, 22, 0.7);
     padding: 40px;
-    width: 500px;
+    width: 500px!important;
     margin: 60px auto;
     border-radius: 4px;
     box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);

@@ -1,0 +1,87 @@
+/* ******************************** */
+/*        Shooting psx stars        */
+/* ******************************** */
+
+@keyframes particleAnimation
+{
+    from {
+        right: -100px;
+        top: -100px;
+    }
+    to {
+        left: calc( 100% + 100px );
+    }
+}
+
+/* animation for x */
+.x{
+  position:fixed;
+  /* size of star */
+  width:30px;
+  height:30px;
+  background-image: url( "../images/ps-stars/x.png" );
+  /* animation of star */
+  animation-name:particleAnimation;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.star-x-1{
+  /* speed */
+  animation-duration:15s;
+  /* direction */
+  left: 40%;
+  top: 100%;
+}
+
+/* animation for triangle */
+.t{
+  position:fixed;
+  width:30px;
+  height:30px;
+  background-image: url( "../images/ps-stars/triangle.png" );
+  animation-name:particleAnimation;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.star-t-1{
+  animation-duration:25s;
+  left: 20%;
+  top: 350%;
+}
+
+/* animation for circle */
+.c{
+  position:fixed;
+  width:30px;
+  height:30px;
+  background-image: url( "../images/ps-stars/circle.png" );
+  animation-name:particleAnimation;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.star-c-1{
+  animation-duration:12s;
+  left: 70%;
+  top: 150%;
+}
+
+
+/* animation for square */
+.s{
+  position:fixed;
+  width:30px;
+  height:30px;
+  background-image: url( "../images/ps-stars/square.png" );
+  animation-name:particleAnimation;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.star-s-1{
+  animation-duration:10s;
+  left: 10%;
+  top: 100%;
+}

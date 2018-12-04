@@ -1,0 +1,224 @@
+
+body { 
+    color:white !important ;
+    padding-top: 73px; 
+    font-family: 'Inconsolata', monospace !important;
+}
+
+/* recrutamento */
+ul #recrutamento {
+    text-decoration: none;
+    color:red;
+}
+
+li #recrutamento {
+    text-decoration: none;
+}
+
+/* fixes the text in the next page buttons */
+.pager li a{
+    color:red!important;
+    padding-top: 5px!important;
+}
+
+/* navbar */
+#buttonlogo{
+    width: 40px;
+    height: 30px; 
+}
+
+/* facebook pic NEED TO FIX SIZE */
+#fbUserPhoto{
+    margin: 0 auto;
+    margin-top: -5px;
+    width:40px!important;
+    height:30px!important;
+    /*max-width: 30px!important;*/
+    /*max-height: 30px!important; */
+    border-radius: 50%!important;
+}
+
+#dropdownMenu1{
+    margin-top: 5px;
+}
+
+a {
+    padding-top: 0px !important; 
+}
+
+.thumbnail{
+    background:transparent;
+    margin: 10px 5px 0px 0px;
+    border: none;
+}
+
+/* COME BACK TO THIS FIX LOGO CENTER AND MEDIA QUERY */
+#logo-img{
+    margin-top:20px;
+    max-height: 40px;
+}
+
+ /*******************************/
+ /*       dropdown menu         */
+ /*******************************/
+
+.dropdown-toggle{
+    background:transparent;
+    color:white;
+    border:none;
+} 
+
+.dropdown-menu{
+    background:#222;
+    margin-top: 20px;
+     /*margin-top:25px;*/
+} 
+
+#dropdownMenu1{
+    padding:0px 5px;
+}
+
+.caret hover{
+    background:transparent;
+}
+
+.dropdown-menu li a {
+    color:white;
+    font-size: 20px;
+}
+
+.navbar-brand li a{
+    color:white !important;
+    margin-top:50px;
+}
+.homenail{
+    margin-top:-8px !important;
+    text-decoration: none !important;
+
+}
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+    section {
+        padding: 15px 0;
+    }
+  
+    section .section-title {
+        text-align: center;
+        color: #007b5e;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+    }
+
+.panel{
+      margin: 30px;
+      color:white;
+      background:#222;
+      border: 2px solid black;
+  }
+
+#bioPic{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-filter: none; /* Safari 6.0 - 9.0 */
+    filter: none
+}
+  
+.panel-footer{
+    color:black;
+    /* background-image: url("../images/team/robert/2.jpg"); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+h3 a{
+    color:black;
+    margin:0px 10px;
+}
+
+  /********************************/
+  /*           404 page           */
+  /********************************/
+
+.error {
+    color:black;
+}
+
+/* *********************** */
+/* link to youtube chanel  */
+/* *********************** */
+
+.gringo-production {
+    color:white;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.gringo-production:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#queixa{
+    color:black!important;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+  /********************************/
+  /*          Media Queries       */
+  /********************************/
+  /* logo gringo.tech */
+  @media  screen  and (max-width: 1012px){
+    #logo-img{
+        margin-top:25px ;
+        width: 200px;
+        
+    }
+  }
+    /* logo gringo.tech */
+  @media  screen  and (max-width: 903px){
+    #logo-img{
+       display:none;
+        
+    }
+  }
+
+  @media (max-width:767px){
+      #footer h5 {
+      padding-left: 0;
+      border-left: transparent;
+      padding-bottom: 0px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media screen and (min-width: 980px){
+      .hero { width: 980px; }    
+  }
+  @media screen and (max-width: 640px){
+      .hero h1 { font-size: 4em; }    
+  }
+
+
+/* fixes home button display location */
+  @media screen and (max-width: 767px){
+    .navbar{
+        height: 75px;
+    }
+    #bs-example-navbar-collapse-1{
+        background:#222;
+        margin-top:10px;
+    }
+    /* come back to fix burger menu */
+    .thumbnail a{
+        text-align: center;
+    } 
+    .dropdown{
+        text-align: center;
+    }
+     
+}
+
