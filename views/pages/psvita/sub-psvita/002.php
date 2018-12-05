@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Gringo Tech - PS4 </title>
+	<title>Gringo Tech - PS Vita</title>
   
   <!-- style -->
   <link rel="stylesheet" type="text/css"  href="../../../../assets/css/bootstrap.css">
@@ -21,7 +21,7 @@
 <!--   Playstation 4 sub-Content   -->
 <!-- ============================= -->
 
-<h1 class="text-center">PlayStation 4</h1>
+<h1 class="text-center">PlayStation Vita</h1>
 
 <!-- Page content -->
 <div class="container-fluid psx-box">
@@ -45,8 +45,8 @@
     <div class="col-lg-6 col-md-6 col-sm-6 text-center">
           <!-- Content itself -->
           <div class="row psx-content">
-              <h3 class="psx-title">Spyro o Dragão, vindo para ps4</h3> <!-- mudar titulo -->
-              <img src="../../../../assets/images/ps4/content/2.jpg"> <!-- mudar foto -->
+              <h3 class="psx-title">Stardew Valley update - agora suporte para multiplayer</h3> <!-- mudar titulo -->
+              <img src="../../../../assets/images/psvita/content/2.jpg"> <!-- mudar foto -->
               <div class="content-text">
                 <p> <!-- mudat paragrafos -->
                   Battlefield continua com o modo de guerra baseado na era da primeira e segunda guerra mundial, ao 
@@ -58,7 +58,7 @@
                   mollit anim id est laborum.
                 </p>
                 <br>
-                <img src="../../../../assets/images/ps4/sub-ps4/002/1.jpg"><!-- mudar foto -->
+                <img src="../../../../assets/images/psvita/sub-psvita/002/1.jpg"><!-- mudar foto -->
                 <p><!-- mudat paragrafos -->
                   Battlefield continua com o modo de guerra baseado na era da primeira e segunda guerra mundial, ao 
                   contrario do que o seu competidor principal, Call of Duty que irá basear o seu ... Lorem ipsum dolor
@@ -69,7 +69,7 @@
                   mollit anim id est laborum.
                 </p>
                 <br>
-                <img src="../../../../assets/images/ps4/sub-ps4/002/2.jpg"><!-- mudar foto -->
+                <img src="../../../../assets/images/psvita/sub-psvita/002/2.jpg"><!-- mudar foto -->
                 <p><!-- mudat paragrafos -->
                   Battlefield continua com o modo de guerra baseado na era da primeira e segunda guerra mundial, ao 
                   contrario do que o seu competidor principal, Call of Duty que irá basear o seu ... Lorem ipsum dolor
@@ -82,7 +82,7 @@
                 <br>
                 <p> O que vc achou do novo titulo das series? ira mesmo marcar a nossa comunidade gamer como um dos 
                   melhores jogos de todos os tempos? deixe sua opinião abaixo</p>
-                <p id="editor"><a href="#">Oct 8, 2018 - Andrei Luis</a><p><!-- mudar data / nome do editor e link para pagina do editor -->
+                <p id="editor"><a href="#">Oct 8, 2018 - Robert Fialho</a><p><!-- mudar data / nome do editor e link para pagina do editor -->
               </div>
           </div>
           

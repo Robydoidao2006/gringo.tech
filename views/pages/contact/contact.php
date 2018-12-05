@@ -57,8 +57,10 @@
     </div>
   </div>
 
-<!-- Footer -->
-<?php include('../../../views/components/footer.php');?> 
+<!-- ps-stars -->
+<?php include('../../../views/components/ps-stars.php');?>
+<!-- footer -->
+<?php include('../../../views/components/footer.php');?>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- <script type="text/javascript" src="js/jquery.1.11.1.js"></script>  -->

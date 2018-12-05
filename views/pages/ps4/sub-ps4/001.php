@@ -7,7 +7,6 @@
   
   <!-- style -->
   <link rel="stylesheet" type="text/css"  href="../../../../assets/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css"  href="../../../../assets/css/style.css">
   <link rel="stylesheet" type="text/css"  href="../../../../assets/css/sub-psx.css">
 	
   <!-- fonts -->
@@ -39,7 +38,6 @@
       
       </div>
     </div>
-
 
 <!-- ===================================== -->
 <!-- ===== content section middle ====== -->
@@ -115,18 +113,14 @@
 
 </div> <!--  close wrap div -->
 
-<!-- Stars -->
-<div class="x star-x-1"></div>
-<div class="t star-t-1"></div> 
-<div class="c star-c-1"></div>
-<div class="s star-s-1"></div>
-
 <br>
 
-<?php include('../../../../views/components/footer.php');?> 
+<!-- ps-stars -->
+<?php include('../../../../views/components/ps-stars.php');?>
+<!-- footer -->
+<?php include('../../../../views/components/footer.php');?>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="../../../../assets/js/infinite.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
 </body>
 

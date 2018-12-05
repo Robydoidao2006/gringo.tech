@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+  <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Gringo.Tech - Time </title>
@@ -11,7 +11,6 @@
   <link rel="stylesheet" type="text/css"  href="../../../assets/css/style.css">
   <link rel="stylesheet" type="text/css"  href="../../../assets/css/psx.css">
   <link rel="stylesheet" type="text/css"  href="../../../assets/css/team.css">
-
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
@@ -23,8 +22,6 @@
 <!-- ========================= -->
 <!--           Content         -->
 <!-- ========================= -->
-
-
 
 <div class="team-section">
   <h1>Nosso Team</h1>
@@ -63,17 +60,10 @@
   </div> <!-- section-description ends -->
 </div><!-- team-section ends -->
 
+<!-- Footer -->
 <?php include('../../../views/components/footer.php');?> 
-
-
-<!-- Stars -->
-<div class="x star-x-1"></div>
-<div class="t star-t-1"></div> 
-<div class="c star-c-1"></div>
-<div class="s star-s-1"></div>
-
-
-
+<!-- ps-stars -->
+<?php include('../../../views/components/ps-stars.php');?> 
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </body>
