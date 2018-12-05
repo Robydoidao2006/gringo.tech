@@ -6,8 +6,7 @@
 	<title>Gringo.Tech</title>
 
     <!-- style  = Bootstrap - CSS -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" type="text/css"  href="../../../../assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../../../../assets/css/navbar.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
@@ -35,7 +34,6 @@
     <!-- Collect the nav links, forms, and other content for toggling -->    
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-            <!--<li class="thumbnail"><img src="../../../../assets/images/logo/novo.png" id="buttonlogo"><a href="../../../../views/pages/novo/novo.php">NOVO</a></li>-->
             <li class="thumbnail"><img src="../../../../assets/images/logo/ps3.png" id="buttonlogo"><a href="../../../../views/pages/ps3/ps3.php">PS3</a></li>
             <li class="thumbnail"><img src="../../../../assets/images/logo/ps4.png" id="buttonlogo"><a href="../../../../views/pages/ps4/ps4.php">PS4</a></li>
             <li class="thumbnail"><img src="../../../../assets/images/logo/psvita.png" id="buttonlogo"><a href="../../../../views/pages/psvita/psvita.php">PS VITA</a></li>
@@ -49,7 +47,6 @@
                 <li class="thumbnail"><img src="../../../../assets/images/logo/chat.png" id="buttonlogo"><a href="../../../../views/pages/chat/chat.php">CHAT</a></li>
                 <li class="thumbnail"><img src="../../../../assets/images/logo/forum.png" id="buttonlogo"><a href="../../../../views/pages/forum/forum.php">FORUM</a></li>   
                 <!--ORIGINAL - change placeholder picture to facebook picture - ORIGINAL-->
-                <!--<li class="thumbnail"> <div id="fbUserPhoto" class="buttonlogo"><img class="profilePicture" id="buttonlogo" src="../../../../assets/images/logo/profile.png"/></div>-->
                 <li class="thumbnail text-center"><div id="fbUserPhoto" class="buttonlogo thumbnail"><img class="profilePicture" id="buttonlogo" src="../../../../assets/images/logo/profile.png"/></div>
                         <div class="dropdown">
                             <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">USER<span class="caret"></span></button>
@@ -74,6 +71,9 @@
   <script type="text/javascript" src="../../../../assets/js/bootstrap.js"></script>
   <script type="text/javascript" src="../../../../assets/js/script.js"></script> 
   <script type="text/javascript" src="../../../../assets/js/facebook.js"></script>
+
+</body>
+</html>
 
 
 
