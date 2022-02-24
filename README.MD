@@ -1,4 +1,7 @@
-# Gringo.Tech - In Development!
+# Gringo.Tech 
+This app only works on a server side. 
+to try it, you will need use mamp. 
+
  I created this website in order to display news regarding the playstion ecosystem.
 This project was build using the following technologies.
 - HTML5
