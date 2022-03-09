@@ -1,5 +1,5 @@
 # Gringo.Tech 
-This app only works on a server side. 
+This app only works on a #server side. 
 to try it, you will need use mamp. 
 
  I created this website in order to display news regarding the playstion ecosystem.
@@ -14,7 +14,6 @@ This project was build using the following technologies.
 - Facebook API 
 - Disqus API
 
-#### Check The Project :[Click Me](https://gringo.tech)
 ![alt text](assets/images/github/v5.jpg)
 
 
